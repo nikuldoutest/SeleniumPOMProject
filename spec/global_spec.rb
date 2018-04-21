@@ -3,7 +3,7 @@ require_relative '../pages/global'
 require_relative '../pages/search'
 
 describe 'Global -' do
-  include HomePageHelpers
+  include HomeHelpers
 
   let(:global) { Global.new(@driver) }
   let(:home) { Home.new(@driver) }
@@ -11,7 +11,7 @@ describe 'Global -' do
   let(:page) { Page.new(@driver) }
   let(:search) { Search.new(@driver) }
 
-  it 'load home page and verify global section elements', :smoke do
+  it 'load home page and verify global page elements', :smoke do
     global.ui_elements do |ui_element|
       expect(page.ui_element_displayed?(ui_element)).to be_truthy
     end
@@ -29,12 +29,11 @@ describe 'Global -' do
     end
   end
 
-
   it 'submit a search term that returns no results' do
     keyword = "\"#{Faker::Lorem.words(rand(3..5)).join(' ')}\""
 
     load_home_page_and_close_modal # HomeHelpers
-    global.submit_search_keyword(keyword)
+    global.submit_search_term(keyword)
     search.ui_elements do |ui_element|
       expect(page.ui_element_displayed?(ui_element)).to be_truthy
     end

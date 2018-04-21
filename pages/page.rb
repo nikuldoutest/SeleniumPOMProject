@@ -1,25 +1,17 @@
-# @author Nirmesh patel
-#
 class Page
-
-  # Constructor for class page
-  #
-  # @param driver [string] driver object
+ 
   def initialize(driver)
     @driver = driver
-    #should also try to make sure page is loaded here
   end
 
-  # Method to load the url
-  #
-  # @param path [string] endpoint path
   def load(path)
-    self.url = URI.join(@base_url, path)
-    puts url
+    puts @bare_url
+    puts path
+    self.url= @base_url + path
     @driver.get url
   end
 
-  def wait_until(seconds=15)
+  def wait_until(seconds=30)
     Selenium::WebDriver::Wait.new(:timeout => seconds).until { yield }
   end
 
@@ -31,8 +23,8 @@ class Page
     end
   end
 
-  def find_within(parent, child)
-    wait_until { @driver.find_element(parent).find_element(child) }
+  def find_within(context, locator) 
+    wait_until { @driver.find_element(context).find_element(locator) }
   end
 
   def get_text(locator) 
@@ -114,5 +106,4 @@ class Page
     timestamp = Time.now.strftime('%m%d%Y%H%M%S')
     return timestamp
   end
-
 end # Page

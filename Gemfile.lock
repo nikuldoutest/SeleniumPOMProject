@@ -35,7 +35,6 @@ GEM
     selenium-webdriver (3.11.0)
       childprocess (~> 0.5)
       rubyzip (~> 1.2)
-    yard (0.9.12)
 
 PLATFORMS
   ruby
@@ -50,7 +49,6 @@ DEPENDENCIES
   rspec-expectations (= 3.7)
   rspec-retry
   selenium-webdriver
-  yard
 
 BUNDLED WITH
    1.16.1
