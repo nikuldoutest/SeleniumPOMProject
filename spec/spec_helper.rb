@@ -3,6 +3,7 @@ require 'rubygems'
 require 'selenium-webdriver'
 require 'bundler'
 require 'rspec/retry'
+require 'uri'
 #require_relative '../lib/login_credentials'
 
 Dir['./spec/helpers/**/*.rb'].each { |file| require file }
@@ -20,7 +21,7 @@ RSpec.configure do |config|
         @driver = Selenium::WebDriver.for :firefox
       end
 
-      @base_url = 'http://www.poets.org'
+      @base_url = 'http://www.poets.org/'
       @driver.get @base_url
 
     end

@@ -1,14 +1,21 @@
 # @author Nirmesh patel
+#
 class Page
 
-  #@param dri
+  # Constructor for class page
+  #
+  # @param driver [string] driver object
   def initialize(driver)
     @driver = driver
     #should also try to make sure page is loaded here
   end
 
+  # Method to load the url
+  #
+  # @param path [string] endpoint path
   def load(path)
-    self.url= @base_url + path
+    self.url = URI.join(@base_url, path)
+    puts url
     @driver.get url
   end
 
