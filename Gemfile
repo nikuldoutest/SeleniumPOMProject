@@ -19,3 +19,7 @@ end
 group :debugging do
   gem 'byebug'
 end
+
+group :documentation do
+  gem 'yard'
+end

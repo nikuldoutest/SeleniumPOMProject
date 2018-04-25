@@ -1,5 +1,7 @@
+# @author Nirmesh patel
 class Page
- 
+
+  #@param dri
   def initialize(driver)
     @driver = driver
     #should also try to make sure page is loaded here

@@ -7,7 +7,7 @@ require 'rspec/retry'
 
 Dir['./spec/helpers/**/*.rb'].each { |file| require file }
 
-Bundler.require(:test_frameworks, :test_harness, :libraries, :debugging)
+Bundler.require(:test_frameworks, :test_harness, :libraries, :debugging, :documentation)
 
 RSpec.configure do |config|
 
