@@ -1,6 +1,6 @@
 require_relative 'spec_helper'
-require_relative '../pages/home'
-require_relative '../pages/pad_sign_up_modal'
+#require_relative '../pages/home'
+#require_relative '../pages/pad_sign_up_modal'
 
 describe 'Home -' do
   include HomeHelpers

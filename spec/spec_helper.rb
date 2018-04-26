@@ -2,7 +2,7 @@ require 'rspec'
 require 'rubygems'
 require 'selenium-webdriver'
 require 'bundler'
-require 'rspec/retry'
+#require 'rspec/retry'
 #require_relative '../lib/login_credentials'
 
 Dir['./spec/helpers/**/*.rb'].each { |file| require file }
@@ -13,7 +13,7 @@ RSpec.configure do |config|
 
   config.before(:each) do |example|
     # default browser is chrome; others can passed as variables
-      case ENV['browser'] ||= 'firefox'
+      case ENV['browser'] ||= 'chrome'
       when 'chrome'
         @driver = Selenium::WebDriver.for :chrome
       when 'firefox'
