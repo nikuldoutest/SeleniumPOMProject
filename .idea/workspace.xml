@@ -11,7 +11,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/SeleniumPOMProject@search.rcov" NAME="search Coverage Results" MODIFIED="1524541254832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pages" MODULE_NAME="SeleniumPOMProject" />
-    <SUITE FILE_PATH="coverage/SeleniumPOMProject@Run_spec__home_spec___SeleniumPOMProject.rcov" NAME="Run spec 'home_spec': SeleniumPOMProject Coverage Results" MODIFIED="1524763378313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="SeleniumPOMProject" />
+    <SUITE FILE_PATH="coverage/SeleniumPOMProject@Run_spec__home_spec___SeleniumPOMProject.rcov" NAME="Run spec 'home_spec': SeleniumPOMProject Coverage Results" MODIFIED="1525202460071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="SeleniumPOMProject" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -87,7 +87,7 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="928" />
+    <option name="x" value="927" />
     <option name="width" value="1000" />
     <option name="height" value="1050" />
   </component>
@@ -142,7 +142,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/SeleniumJustEatProject" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
