@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="01ddc09a-0bb5-4998-a50a-50f3c48ce094" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/SeleniumPOMProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SeleniumPOMProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/page.rb" beforeDir="false" afterPath="$PROJECT_DIR$/pages/page.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/home_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/home_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/spec_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/spec_helper.rb" afterDir="false" />
-    </list>
+    <list default="true" id="01ddc09a-0bb5-4998-a50a-50f3c48ce094" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -243,7 +235,7 @@
       <workItem from="1524541103094" duration="7298000" />
       <workItem from="1524586606744" duration="5374000" />
       <workItem from="1524604805399" duration="4581000" />
-      <workItem from="1524715341284" duration="1396000" />
+      <workItem from="1524715341284" duration="1853000" />
     </task>
     <servers />
   </component>
@@ -254,9 +246,12 @@
     <history-entry file="Run_spec_'home_spec'__SeleniumPOMProject - 2018.04.24 at 23h 48m 02s.xml">
       <configuration name="Run spec 'home_spec': SeleniumPOMProject" configurationId="RSpecRunConfigurationType" />
     </history-entry>
+    <history-entry file="Run_spec_'home_spec'__SeleniumPOMProject - 2018.04.26 at 11h 23m 38s.xml">
+      <configuration name="Run spec 'home_spec': SeleniumPOMProject" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26690000" />
+    <option name="totallyTimeSpent" value="27147000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="743" y="0" width="800" height="840" extended-state="0" />
@@ -268,7 +263,7 @@
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3293011" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33288044" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33288044" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
